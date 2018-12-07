@@ -5,49 +5,54 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="4.912067">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="4.590155">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.028451">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.017176">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.050603">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.043725">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="8.305126">
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="8.2596">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.016617">
+      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.014172">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: add_git_tag" time="0.022117">
+      <testcase classname="fastlane.lanes" name="5: remove_tag" time="6.03239">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: push_git_tags" time="6.387799">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.021095">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: pod_lib_lint" time="10.797591">
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="5.712603">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_push" time="59.858409">
+      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="6.905014">
         
-          <failure message="/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:232:in `block in execute_action'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:37:in `block in parsing_binding'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/huyunpeng/.rvm/rubies/ruby-2.2.5/lib/ruby/gems/2.2.0/gems/fastlane-2.108.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/cli_tools_distributor.rb:108:in `take_off'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/huyunpeng/.rvm/rubies/ruby-2.2.5/bin/fastlane:23:in `load'&#10;/Users/huyunpeng/.rvm/rubies/ruby-2.2.5/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:24:in `eval'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:24:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push' was 1 instead of 0.&#10;[32m&#10;[!] Found podspec `RegexKitLiteLib.podspec`[0m&#10;Updating spec repo `master`&#10;&#10;CocoaPods 1.6.0.beta.2 is available.&#10;To update use: `sudo gem install cocoapods --pre`&#10;[!] This is a test version we'd love you to try.&#10;&#10;For more information, see https://blog.cocoapods.org and the CHANGELOG for this version at https://github.com/CocoaPods/CocoaPods/releases/tag/1.6.0.beta.2&#10;&#10;Validating podspec&#10; -&gt; RegexKitLiteLib -&gt; RegexKitLiteLib (0.1.0)&#10;    - NOTE  | xcodebuild:  note: Using new build system&#10;    - NOTE  | [iOS] xcodebuild:  note: Planning build&#10;    - NOTE  | [iOS] xcodebuild:  note: Constructing build description&#10;    - NOTE  | [iOS] xcodebuild:  warning: Skipping code signing because the target does not have an Info.plist file. (in target 'App')&#10;    - WARN  | xcodebuild:  RegexKitLiteLib/RegexKitLiteLib/Classes/RegexKitLite.m:969:6: warning: comparison of nonnull parameter 'cachedRegex' not equal to a null pointer is 'true' on first encounter [-Wtautological-pointer-compare]&#10;    - NOTE  | [iOS] xcodebuild:  :262: note: declared 'nonnull' here&#10;    - NOTE  | [iOS] xcodebuild:  note: &#10;    - WARN  | xcodebuild:  RegexKitLiteLib/RegexKitLiteLib/Classes/RegexKitLite.m:1008:105: warning: code will never be executed [-Wunreachable-code]&#10;    - NOTE  | xcodebuild:  RegexKitLiteLib/RegexKitLiteLib/Classes/RegexKitLite.m:1008:93: note: silence by adding parentheses to mark code as explicitly dead&#10;    - WARN  | xcodebuild:  RegexKitLiteLib/RegexKitLiteLib/Classes/RegexKitLite.m:1866:57: warning: code will never be executed [-Wunreachable-code]&#10;    - NOTE  | [iOS] xcodebuild:  RegexKitLiteLib/RegexKitLiteLib/Classes/RegexKitLite.m:542:262: note: declared 'nonnull' here&#10;    - WARN  | [iOS] xcodebuild:  RegexKitLiteLib/RegexKitLiteLib/Classes/RegexKitLite.m:233:24: warning: unused function 'NSRangeInsideRange' [-Wunused-function]&#10;&#10;[!] The spec did not pass validation, due to 4 warnings (but you can use `--allow-warnings` to ignore them).&#10;" />
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="9: pod_push" time="22.44538">
+        
+          <failure message="/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/actions/actions_helper.rb:48:in `execute_action'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:232:in `block in execute_action'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:227:in `chdir'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:227:in `execute_action'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/fast_file.rb:149:in `method_missing'&#10;Fastfile:37:in `block in parsing_binding'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/lane_manager.rb:56:in `cruise_lane'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/commands_generator.rb:108:in `block (2 levels) in run'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:178:in `call'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/command.rb:153:in `run'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/runner.rb:476:in `run_active_command'&#10;/Users/huyunpeng/.rvm/rubies/ruby-2.2.5/lib/ruby/gems/2.2.0/gems/fastlane-2.108.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:76:in `run!'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/commander-fastlane-4.4.6/lib/commander/delegates.rb:15:in `run!'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/commands_generator.rb:333:in `run'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/commands_generator.rb:41:in `start'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/fastlane/lib/fastlane/cli_tools_distributor.rb:108:in `take_off'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5@global/gems/fastlane-2.108.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/Users/huyunpeng/.rvm/rubies/ruby-2.2.5/bin/fastlane:23:in `load'&#10;/Users/huyunpeng/.rvm/rubies/ruby-2.2.5/bin/fastlane:23:in `&lt;main&gt;'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:24:in `eval'&#10;/Users/huyunpeng/.rvm/gems/ruby-2.2.5/bin/ruby_executable_hooks:24:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push 'RegexKitLiteLib.podspec'' was 1 instead of 0.&#10;Updating spec repo `master`&#10;[!] CocoaPods was not able to update the `master` repo. If this is an unexpected issue and persists you can inspect it running `pod repo update --verbose`&#10;" />
         
       </testcase>
     

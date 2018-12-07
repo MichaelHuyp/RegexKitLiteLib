@@ -1,8 +1,8 @@
-desc "提交一个私有库"
+desc "向cocoapods提交代码库"
 lane :eslib do |options|
 target_version = options[:version]
 project        = options[:project]
-path           = "#{project}.podspec"
+path           = "#{project}"
 
 cocoapods(
 clean: true,
