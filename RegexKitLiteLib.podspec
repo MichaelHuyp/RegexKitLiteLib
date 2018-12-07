@@ -30,6 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'RegexKitLiteLib/Classes/**/*'
   s.requires_arc = false
+  s.libraries = 'icucore'
   
 
 end
