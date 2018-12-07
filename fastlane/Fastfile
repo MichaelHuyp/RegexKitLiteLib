@@ -34,7 +34,7 @@ push_git_tags
 pod_lib_lint(allow_warnings: true) 
 
 # pod trunk push
-pod_push(path: path)
+pod_push(path: path, allow_warnings: true, verbose: true)
 
 end
 
