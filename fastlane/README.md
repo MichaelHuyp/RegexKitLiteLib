@@ -19,7 +19,7 @@ or alternatively using `brew cask install fastlane`
 ```
 fastlane eslib
 ```
-提交一个私有库
+向cocoapods提交代码库
 
 ----
 
