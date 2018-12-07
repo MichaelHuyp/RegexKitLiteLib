@@ -7,6 +7,7 @@
 //
 
 #import "YPViewController.h"
+#import "RegexKitLite.h"
 
 @interface YPViewController ()
 
